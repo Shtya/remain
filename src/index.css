@@ -1,0 +1,53 @@
+
+*{
+font-family: 'Cairo', sans-serif;
+
+}
+
+.menu ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.menu ul li{
+    margin-right: 5px;
+    border: 1px solid #1a7f48;
+    padding: 3px 5px;
+    border-radius: 2px;
+    user-select: none;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 12px;
+}
+.menu ul li:hover{
+    background-color: #1a7f48;
+    color: white;
+}
+.head h3{
+    margin-top: 10px;
+    position: relative;
+}
+.head span{
+    margin: 0 10px;
+    color: #1a7f48;
+    font-size: 26px;
+    font-weight: 600;
+}
+.head h3::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #1a7f48;
+    bottom: -10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row !important;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.card img{
+    max-width: 300px;
+    max-height: 200px;
+}
